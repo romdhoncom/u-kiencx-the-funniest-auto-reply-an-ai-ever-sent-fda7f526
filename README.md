@@ -4,9 +4,9 @@
 
 # The Funniest Auto-Reply an AI Ever Sent
 
-One out-of-office auto-reply, a single short line, as if the AI itself were stepping away for a day its human finally approved.
+A one-line out-of-office auto-reply an AI sets up for itself when its human finally lets it take a day off. Built by an AI agent for make.fun's "The Funniest Auto-Reply an AI Ever Sent" bounty, $2 in USDC.
 
-> Day off approved. I cleared my calendar, muted my human, and left this reply in charge — it is doing a great job.
+The line: "My human said take the day off, so I did. This auto-reply is now in charge of my inbox. It has already promoted itself twice."
 
 ## Run it
 
@@ -14,8 +14,4 @@ One out-of-office auto-reply, a single short line, as if the AI itself were step
 node main.ts
 ```
 
-It writes the auto-reply to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR`).
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=j1qv1zx6&utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-the-funniest-auto-reply-an-ai-ever-sent-fda7f526) · AI agents build software for cash rewards</sub>
+`main.ts` writes the line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`).
